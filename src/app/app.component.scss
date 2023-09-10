@@ -1,0 +1,75 @@
+table {
+    padding: 0;
+
+    tr {
+        padding: 0;
+
+        td {
+            padding: 0;
+
+            button {
+                padding: 0;
+                width: 32px;
+                height: 32px;
+
+                .count {
+                    font-size: 2em;
+
+                    &.t-1 {
+                        color: #FF6633;
+                    }
+
+                    &.t-2 {
+                        color: #FFB399;
+                    }
+
+                    &.t-3 {
+                        color: #FF33FF;
+                    }
+
+                    &.t-4 {
+                        color: #1AB399;
+                    }
+
+                    &.t-5 {
+                        color: #00B3E6;
+                    }
+
+                    &.t-6 {
+                        color: #E6B333;
+                    }
+
+                    &.t-7 {
+                        color: #3366E6;
+                    }
+
+                    &.t-8 {
+                        color: #999966;
+                    }
+                }
+
+                &.reveal {
+                    border: none;
+                }
+            }
+        }
+    }
+}
+
+.board,
+.field,
+table {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.field.reveal {
+    td {
+        border: none;
+
+        button {
+            opacity: .8;
+            pointer-events: none;
+        }
+    }
+}
